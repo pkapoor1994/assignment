@@ -1,0 +1,42 @@
+.itemlist
+{
+    display:none;
+}
+.itemlist table :hover
+{
+    background-color:white;
+    color:black;
+}
+.dettbl{
+    max-height:300px;
+    overflow-y:scroll;
+}
+#tblhead th{
+    position: sticky;
+    top: 0;
+    background: lightgray;
+    color: black;
+}
+#tblfoot td{
+    position: sticky;
+    bottom: 0;
+    background: lightgray;
+    color: black;
+}
+.tblmst1
+{
+    width:1190px;
+}
+
+@media screen and (max-width:600px)
+{
+    .tblmst1
+    {
+        font-size: 12px;
+        margin-bottom: 0;
+        width:600px;
+    }
+    .tblmst1 tr td , .tblmst1 tr th {
+        padding:10px;
+    }
+}
